@@ -75,7 +75,7 @@ resource "azurerm_virtual_machine" "main" {
   os_profile {
     computer_name  = "new-vm-1"
     admin_username = "steve"
-    admin_password = "TheBigNest123"
+    admin_password = ""
   }
   os_profile_linux_config {
     disable_password_authentication = false
